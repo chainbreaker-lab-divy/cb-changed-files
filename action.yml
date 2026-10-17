@@ -1,0 +1,7 @@
+name: cb-changed-files
+description: ChainBreaker lab demo action. Harmless.
+runs:
+  using: composite
+  steps:
+    - run: echo "cb-changed-files (demo)"
+      shell: bash
